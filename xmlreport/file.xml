@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="222.454159">
+    <testcase classname="Login to Facebook and post a status message &quot;Hello World&quot;" name="Login to facebook and post hello world message" time="222.454159">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)&#13;&#10;&#9;at commonutils.SeleniumMethods.click(SeleniumMethods.java:100)&#13;&#10;&#9;at org.cucumber.object.repository.FacebookHomePage.CreatePost(FacebookHomePage.java:17)&#13;&#10;&#9;at stepdefinitions.FacebookLoginScreen.I_click_on_login(FacebookLoginScreen.java:38)&#13;&#10;&#9;at ✽.And I click on login button(Assignment1.feature:8)&#13;&#10;">
+            <![CDATA[Given I launch the chrome...................................................passed
+And I pass the https://www.facebook.com/....................................passed
+When I enter hemakumar.1986@gmail.com and abcdef12345.......................passed
+And I click on login button.................................................failed
+Then I should be able to login..............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at commonutils.SeleniumMethods.click(SeleniumMethods.java:100)
+	at org.cucumber.object.repository.FacebookHomePage.CreatePost(FacebookHomePage.java:17)
+	at stepdefinitions.FacebookLoginScreen.I_click_on_login(FacebookLoginScreen.java:38)
+	at ✽.And I click on login button(Assignment1.feature:8)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
